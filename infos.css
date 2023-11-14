@@ -1,8 +1,8 @@
 /*Background*/
 body {
-    background: url("Pictures/20200402192900_1.jpg") fixed;
-    background-size: 100% 100%;
+    background: url("Pictures/20200402192900_1.jpg") center;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /*Text style*/
@@ -10,8 +10,21 @@ body {
     text-align: justify;
 }
 
+.about::first-letter {
+    padding-left: 30px;
+}
+
 section {
     background-color: #3b3a2ca8;
+    padding: 30px;
+}
+
+/*Text Position*/
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center
 }
 
 /*Medias Queries*/
