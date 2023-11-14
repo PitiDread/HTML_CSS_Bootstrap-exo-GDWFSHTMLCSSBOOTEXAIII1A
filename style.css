@@ -12,11 +12,20 @@ html, body {
     width: 100%;
     min-height: 100%;
     min-width: 100%;
-
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 header, footer {
     background-color: #3B3A2C;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 

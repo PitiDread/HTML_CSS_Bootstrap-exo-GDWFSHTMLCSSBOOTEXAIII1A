@@ -1,7 +1,7 @@
 /*Background*/
 body {
-    background: url("Pictures/20200413115912_1.jpg") center;
-    background-size: 100% 100%;
+    background: url("Pictures/20200413115912_1.jpg") fixed;
+    background-size: 100% 108%;
     background-repeat: no-repeat;
 }
 
