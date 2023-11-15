@@ -2,7 +2,7 @@
 body {
     background: url("Pictures/20200416125939_1.jpg") center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 230% 100%;
 }
 
 /*Text Field Style*/
@@ -21,8 +21,8 @@ textarea {
 }
 
 /*Medias Queries*/
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
     body {
-        background-size: 230% 100%;
+        background-size: 100% 100%;
     }
 }

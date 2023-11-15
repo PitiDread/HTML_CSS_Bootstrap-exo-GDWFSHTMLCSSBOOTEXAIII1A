@@ -2,7 +2,7 @@
 body {
     background: url("Pictures/20200413115912_1.jpg") fixed center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 230% 100%;
 }
 
 /*Text Area Style*/
@@ -27,13 +27,10 @@ div {
 
 
 /*Medias Queries*/
-@media screen and (max-width: 700px) {
-    body {
-        background-size: 230% 100%;
-    }
-}
-
 @media screen and (min-width: 700px) {
+    body {
+        background-size: 100% 100%;
+    }
     section {
         display: flex;
         flex-flow: row;

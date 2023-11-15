@@ -2,7 +2,7 @@
 body {
     background: url("Pictures/20200402192900_1.jpg") center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 230% 100%;
 }
 
 /*Text style*/
@@ -28,13 +28,10 @@ main {
 }
 
 /*Medias Queries*/
-@media screen and (max-width: 700px) {
-    body {
-        background-size: 230% 100%;
-    }
-}
-
 @media screen and (min-width: 700px) {
+    body {
+        background-size: 100% 100%;
+    }
     section {
         width: 80%;
     }

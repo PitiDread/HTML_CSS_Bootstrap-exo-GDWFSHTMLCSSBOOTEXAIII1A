@@ -18,15 +18,13 @@ html, body {
     justify-content: space-between;
 }
 
-header, footer {
-    background-color: #3B3A2C;
+header, main, footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-main {
-    padding-top: 20px;
-    padding-bottom: 20px;
+header, footer {
+    background-color: #3B3A2C;
 }
 
 footer {
